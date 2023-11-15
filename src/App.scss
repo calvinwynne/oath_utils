@@ -24,15 +24,17 @@
   }
 }
 
-.App {
-  background-color: #222;
+.OAuthForm {
+  background-color: #111111;
+  //background-color:;
   display: flex;
   flex-direction: column;
-  min-height: 100vh;
   color: #fff;
+  min-height: 100vh;
+  margin-top: 50px;
   padding-left: 40px;
   padding-right: 40px;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: IBMPlexSans;
 }
 
 .App-field {
@@ -43,23 +45,24 @@
 }
 
 .App-field-title {
-  margin-right: 16px;
-  width: 160px;
+  margin-right: 0px;
+  width: 130px;
   font-weight: bold;
   font-size: calc(9px + 1vmin);
 }
 
-.App-field-input {
-  width: 300px;
-  font-size: calc(9px + 1vmin);
+.bottom-button-section {
+  display: flex;
+  align-items: flex-end;
+  margin: 5px;
 }
 
 .App-section {
   display: flex;
   align-items: center;
   font-size: calc(10px + 2vmin);
-  margin-top: 60px;
-  margin-bottom: 40px;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 @keyframes App-logo-spin {
