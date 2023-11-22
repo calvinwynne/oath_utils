@@ -17,7 +17,7 @@ export const HeaderWSideNav = () => (
   <HeaderContainer
     render={({ isSideNavExpanded, onClickSideNavExpand }) => (
       <>
-        <Header aria-label="IBM Platform Name">
+        <Header aria-label="{Company} Platform Name">
           <SkipToContent />
           <HeaderMenuButton
             aria-label={isSideNavExpanded ? "Close menu" : "Open menu"}
@@ -25,7 +25,7 @@ export const HeaderWSideNav = () => (
             isActive={isSideNavExpanded}
             aria-expanded={isSideNavExpanded}
           />
-          <HeaderName href="#" prefix="IBM">
+          <HeaderName href="#" prefix="{Company}">
             QRadar Authentication Companion
           </HeaderName>
           <SideNav
